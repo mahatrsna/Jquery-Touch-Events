@@ -10,5 +10,5 @@ setTimeout(function() {
         }
     });
 }, 50)}).on("click", "#myelement", function() {
-//all the behavior i originally wanted
+//all the behavior i originally wanted -- this is optional -- you presumably already have click events bound to your elements
 });
