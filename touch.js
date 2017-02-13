@@ -1,4 +1,4 @@
-$("body").on("touchstart", ".touchable", function() { //make touchable  items fire like a click event
+$("body").on("touchstart", ".touchable", function() { //make touchable  items fire like a click event if they bubble up from within body tag- can be any tag
 var d1 = new Date();
 var n1 = d1.getTime();
 setTimeout(function() {
