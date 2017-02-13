@@ -6,7 +6,7 @@ setTimeout(function() {
         var d2 = new Date();
         var n2 = d2.getTime();
         if (n2 - n1 <= 300) {
-            $(event.target).trigger("click"); //dont do the action here just call real click handler
+            $(event.target).trigger("click"); //dont do the action here but instead call real/original click handler for this element
         }
     });
 }, 50)}).on("click", "#myelement", function() {
