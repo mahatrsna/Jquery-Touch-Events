@@ -1,6 +1,6 @@
 # Jquery-TAP-Events
 Bind touch events to your existing click event structure (JQuery)
-
+- drop code in to bind touchstart/touchend tap events to your existing click handlers
 
 WHY?
 
